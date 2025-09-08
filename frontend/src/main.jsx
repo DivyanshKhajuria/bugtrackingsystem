@@ -96,11 +96,11 @@ const router = createBrowserRouter([
       },
       {
         path: '/login',
-        element: <LoginScreen title='BugRecon' />,
+        element: <LoginScreen title='BugTracker' />,
       },
       {
         path: '/register',
-        element: <RegisterScreen title='BugRecon' />,
+        element: <RegisterScreen title='BugTracker' />,
       },
     ],
   },
